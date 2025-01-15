@@ -1,0 +1,48 @@
+.gitattributes
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+public/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+bower_components/
+
+# Miscellaneous
+*.swp
+*.swo
+*.sublime-settings
+*.sublime-project
+*.sublime-workspace
